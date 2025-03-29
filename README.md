@@ -37,6 +37,7 @@ GUI & Visualization Module
 Functionalities
 
 Input & Process Management
+
 ✅ Features:
 -> Allow users to enter process details (Arrival Time, Burst Time, Priority, etc.).
 -> Modify/Delete process entries dynamically.
