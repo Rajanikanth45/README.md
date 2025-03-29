@@ -10,11 +10,13 @@ Goals:
 -> Develop a simulator for visualizing and comparing different CPU scheduling algorithms.
 -> Help users understand the behavior of scheduling policies with real-time Gantt charts.
 -> Compute performance metrics like Average Waiting Time (AWT), Turnaround Time (TAT), and CPU Utilization.
+
 Expected Outcomes:
 -> A working simulator supporting FCFS, SJF (Preemptive & Non-Preemptive), Round Robin, and Priority Scheduling.
 -> Graphical visualization of scheduling (e.g., Gantt Chart).
 -> Performance evaluation with key metrics.
 User-friendly interface for input and real-time execution.
+
 Scope:
 -> Input: Process details (arrival time, burst time, priority, quantum time for RR).
 -> Output: Gantt chart, per-process details, and performance metrics.
@@ -48,6 +50,7 @@ Input & Process Management
 -> Load predefined test cases.
 
 Scheduling & Computation
+
 ✅ Features:
 
 Implements:
@@ -55,6 +58,7 @@ Implements:
 -> SJF (Shortest Job First - Preemptive & Non-Preemptive)
 -> Round Robin
 -> Priority Scheduling
+
 Calculates:
 -> Completion Time (CT)
 -> Turnaround Time (TAT = CT - AT)
@@ -87,9 +91,11 @@ Step 2: Implement Scheduling Algorithms
 Step 3: Build the GUI
 -> Create a simple process input interface.
 -> Add buttons for algorithm selection & execution.
+
 Step 4: Implement Gantt Chart & Performance Metrics
 -> Use Matplotlib (Python) or SFML/SDL (C++) to visualize scheduling.
 -> Display average waiting time, turnaround time, and CPU utilization.
+
 Step 5: Optimize & Finalize
 -> Add error handling for invalid inputs.
 -> Improve UI for better usability.
