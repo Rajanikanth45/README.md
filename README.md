@@ -1,8 +1,12 @@
 CPU-Scheduling-Algorithms-Simulator
+
 A simulator for various CPU Scheduling Algorithms. Provide real-time visualizations for Gantt charts and process execution
 
+
 Project Overview
+
 Goals:
+
 -> Develop a simulator for visualizing and comparing different CPU scheduling algorithms.
 -> Help users understand the behavior of scheduling policies with real-time Gantt charts.
 -> Compute performance metrics like Average Waiting Time (AWT), Turnaround Time (TAT), and CPU Utilization.
@@ -57,6 +61,7 @@ Calculates:
 -> Waiting Time (WT = TAT - BT)
 -> CPU Utilization & Throughput
 -> Generates Gantt chart sequence. 3. GUI & Visualization
+
 ✅ Features:
 
 -> Real-time Gantt chart visualization.
@@ -64,17 +69,21 @@ Calculates:
 -> Graphical comparison of scheduling metrics.
 
 #Technology Recommendations
+
 Component = Recommendation
 Language = Python (for easy GUI & visualization)GUI Library Tkinter (Python) or PyQt Graphing Matplotlib (for Gantt chart)
 Development = Tools VS Code, PyCharm
 5. Execution Plan
+
 Step 1: Setup Development Environment
 -> Install Python (if using Python) or C++ compiler (if using C++).
 -> Install required libraries (Tkinter, Matplotlib for Python).
+
 Step 2: Implement Scheduling Algorithms
 -> Start with FCFS (simplest).
 -> Implement SJF, Priority, and Round Robin.
 -> Test each algorithm with sample inputs.
+
 Step 3: Build the GUI
 -> Create a simple process input interface.
 -> Add buttons for algorithm selection & execution.
