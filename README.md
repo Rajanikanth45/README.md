@@ -13,6 +13,7 @@ Goals:
 -> Compute performance metrics like Average Waiting Time (AWT), Turnaround Time (TAT), and CPU Utilization.
 
 Expected Outcomes:
+
 -> A working simulator supporting FCFS, SJF (Preemptive & Non-Preemptive), Round Robin, and Priority Scheduling.
 
 -> Graphical visualization of scheduling (e.g., Gantt Chart).
@@ -22,26 +23,39 @@ Expected Outcomes:
 User-friendly interface for input and real-time execution.
 
 Scope:
+
 -> Input: Process details (arrival time, burst time, priority, quantum time for RR).
+
 -> Output: Gantt chart, per-process details, and performance metrics.
+
 -> User Interaction: GUI for adding processes and selecting algorithms.
 
 Module-Wise Breakdown
 
 Three main modules:
+
 Input & Process Management Module
+
 -> Handles user input of process attributes.
+
 -> Stores process details dynamically.
+
 -> Implements various scheduling algorithms.
 
 Scheduling & Computation Module
+
 -> Implements different CPU scheduling algorithms.
+
 -> Calculates key metrics (Waiting Time, Turnaround Time, etc.).
+
 -> Generates Gantt Chart data.
 
 GUI & Visualization Module
+
 -> Uses Tkinter/PyQt for user interaction.
+
 -> Displays real-time Gantt chart using Matplotlib.
+
 -> Shows tabular process statistics.
 
 Functionalities
@@ -49,8 +63,11 @@ Functionalities
 Input & Process Management
 
 ✅ Features:
+
 -> Allow users to enter process details (Arrival Time, Burst Time, Priority, etc.).
+
 -> Modify/Delete process entries dynamically.
+
 -> Load predefined test cases.
 
 Scheduling & Computation
@@ -59,8 +76,11 @@ Scheduling & Computation
 
 Implements:
 -> FCFS (First Come, First Serve)
+
 -> SJF (Shortest Job First - Preemptive & Non-Preemptive)
+
 -> Round Robin
+
 -> Priority Scheduling
 
 Calculates:
@@ -84,23 +104,34 @@ Development = Tools VS Code, PyCharm
 5. Execution Plan
 
 Step 1: Setup Development Environment
+
 -> Install Python (if using Python) or C++ compiler (if using C++).
+
 -> Install required libraries (Tkinter, Matplotlib for Python).
 
 Step 2: Implement Scheduling Algorithms
+
 -> Start with FCFS (simplest).
+
 -> Implement SJF, Priority, and Round Robin.
+
 -> Test each algorithm with sample inputs.
 
 Step 3: Build the GUI
+
 -> Create a simple process input interface.
+
 -> Add buttons for algorithm selection & execution.
 
 Step 4: Implement Gantt Chart & Performance Metrics
+
 -> Use Matplotlib (Python) or SFML/SDL (C++) to visualize scheduling.
+
 -> Display average waiting time, turnaround time, and CPU utilization.
 
 Step 5: Optimize & Finalize
 -> Add error handling for invalid inputs.
+
 -> Improve UI for better usability.
+
 -> Optimize algorithm execution.
